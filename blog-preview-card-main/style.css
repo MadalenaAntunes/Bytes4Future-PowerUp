@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.main{
+    font-family: "Figtree";
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 380px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+img{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 22px;
+    font-weight: 800;
+}
+
+small{
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+h1{
+    font-weight: 800;
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.pg{
+    color: hsl(0, 0%, 50%);
+    margin-top: 0px;
+}
+
+.Greg{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar{
+    width: 50px;
+}
+
+.g_text{
+    margin-left: 20px;
+}
+
+.GH{
+    font-weight: 800;
+}
