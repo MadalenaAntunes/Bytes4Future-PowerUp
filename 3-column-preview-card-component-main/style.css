@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;
+    height: 450px;
+    font-family: "Lexend Deca";
+}
+
+h2{
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%, 0.75);
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+button{
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn1:hover{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2:hover{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3:hover{
+    color: hsl(179, 100%, 13%);
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 30px;
+    width: 200px;
+}
+
+.SUVs{
+    background-color: hsl(184, 100%, 22%);
+    width: 200px;
+    padding: 30px;
+}
+
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 200px;
+    padding: 30px;
+}
